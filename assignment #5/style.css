@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+.logoImg{
+    float: left;
+    margin-left: 10px;
+}
+.navBtn a{
+    background-color: crimson;
+    color: white;
+}
+.navLink a {
+    display: block;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.foodItems {
+    text-align: center;
+}
+.Suggest{
+    text-align: center;
+}
