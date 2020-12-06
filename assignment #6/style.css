@@ -7,10 +7,10 @@ blockquote {
     font-size: 130%;
     font-style: italic;
     font-family: Georgia, Times, serif;
-    /* margin: 0px 0px 10px 10px; */
+    margin: 0px 0px 10px 10px;
     padding: 10px;
-    border-top: 1px solid #665544;
-    border-bottom: 1px solid #665544;
+    border-top: 1px solid rgb(117, 60, 117);
+    border-bottom: 1px solid rgb(112, 64, 112);
 }
 p {
     width: 600px;
