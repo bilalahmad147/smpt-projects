@@ -11,8 +11,8 @@ blockquote {
     padding: 10px;
     border-top: 1px solid rgb(117, 60, 117);
     border-bottom: 1px solid rgb(112, 64, 112);
+    text-align: justify;
 }
 p {
-    width: 600px;
-    margin-top: 10px;
+    text-align: justify;
 }
