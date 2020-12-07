@@ -1,18 +1,13 @@
-h1 {
+.container{
     background-color: thistle;
+    font-size: 28px;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 4s;
 }
-blockquote {
-    float: right;
-    width: 275px;
-    font-size: 130%;
-    font-style: italic;
-    font-family: Georgia, Times, serif;
-    margin: 0px 0px 10px 10px;
-    padding: 10px;
-    border-top: 1px solid rgb(117, 60, 117);
-    border-bottom: 1px solid rgb(112, 64, 112);
-    text-align: justify;
-}
-p {
-    text-align: justify;
-}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
