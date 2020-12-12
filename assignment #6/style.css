@@ -1,9 +1,1 @@
-.container {
-    background-color: teal;
-    font-size: 12px;
-    animation: example 4s ease-in-out ;
-}
-@keyframes example {
-    from {font-size: 12px;}
-    to {font-size: 52px;}
-}
+
