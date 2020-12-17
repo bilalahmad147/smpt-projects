@@ -1,0 +1,17 @@
+body {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.memberShipBtn {
+    color: black !important;
+    text-decoration: none !important;
+}
+.sayHelloBtn {
+    border-radius: 15px !important;
+    background-color: white !important;
+    border: 2px solid black !important;
+}
+.sayHelloBtn:hover {
+    background-color: burlywood !important;
+}
