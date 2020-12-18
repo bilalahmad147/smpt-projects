@@ -47,3 +47,13 @@ body {
     text-align: center;
     justify-content: center;
 }
+
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    background-color: turquoise;
+}
