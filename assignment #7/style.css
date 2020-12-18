@@ -50,12 +50,11 @@ body {
 
 .skills {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 80%;
     margin: 20px auto;
     text-align: center;
     align-items: center;
-    background-color: turquoise;
 }
 
 .recentWorkSection{
@@ -65,8 +64,8 @@ body {
     display: flex;
 }
 .recentWork img{
-    width: 300px;
-    height: 200px;
+    width: 90%;
+    height: auto;
     border-radius: 10px;
     margin: 20px;
 }
@@ -79,4 +78,18 @@ body {
 .collaboration{
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.testimonials{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.testimonials img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
 }
