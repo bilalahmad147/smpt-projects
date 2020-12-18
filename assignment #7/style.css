@@ -57,3 +57,26 @@ body {
     align-items: center;
     background-color: turquoise;
 }
+
+.recentWorkSection{
+    text-align: center;
+}
+.recentWork{
+    display: flex;
+}
+.recentWork img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.seeMoreProjects{
+    border: 1px solid black !important;
+    border-radius: 15px !important;
+    padding: 5px !important;
+    margin: 50px;
+}
+.collaboration{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
