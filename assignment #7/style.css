@@ -96,22 +96,38 @@ body {
 .footer2{
     margin: auto;
     width: 80%;
-    padding: 10px;
+    height: auto;
     background-color: black;
     color: white;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 .footer2Align{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 40px;
-    padding: 10px;
 }
 .letsDoThis{
-    border: 1px solid blue !important;
+    border: 3px solid blue !important;
     background-color: black;
     color: white;
     border-radius: 25px !important;
     padding: 10px 25px 10px 25px !important;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    padding: 100px;
+}
+.footerIcons i {
+    font-size: 50px;
+    width: 80px;
+    margin: 20px;
+    height: 80px;
+    padding: 15px 0;
+    border-radius: 40px;
+    border: 1px solid black;
 }
