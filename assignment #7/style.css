@@ -4,16 +4,16 @@ body {
     box-sizing: border-box;
 }
 .memberShipBtn {
-    color: black !important;
+    color: blue !important;
     text-decoration: none !important;
 }
 .sayHelloBtn {
     border-radius: 15px !important;
     background-color: white !important;
-    border: 2px solid black !important;
+    border: 2px solid blue !important;
 }
 .sayHelloBtn:hover {
-    background-color: black !important;
+    background-color: blue !important;
     color: white;
 }
 .profileImg {
@@ -31,7 +31,7 @@ body {
     min-height: 70vh;
     max-height: auto;
     margin: 0px auto;
-    background-color: black;
+    background-color: blue;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -41,7 +41,7 @@ body {
     color: #ecf0f1;
     border-radius: 15px;
     padding: 20px;
-    background: black;
+    background: blue;
     border: solid 3px rgba(255,255,255,.3);
     text-align: center;
     justify-content: center;
@@ -72,7 +72,7 @@ body {
     margin: 20px;
 }
 .seeMoreProjects{
-    border: 1px solid black !important;
+    border: 1px solid blue !important;
     border-radius: 15px !important;
     padding: 5px !important;
     margin: 50px;
@@ -115,7 +115,7 @@ body {
 }
 .letsDoThis{
     border: 3px solid white !important;
-    background-color: blue;
+    background-color: black;
     color: white;
     border-radius: 25px !important;
     padding: 10px 25px 10px 25px !important;
