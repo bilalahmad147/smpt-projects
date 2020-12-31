@@ -1,15 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .main{
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 200px;
+    max-width: 250px;
     margin: 0 auto;
 }
 .outputScr{
+    width: 199px;
     font-size: 25px;
-    border-radius: 10px;
+    background-color: black;
+    color: white;
 }
-.pad>button{
-    font-size: 22px;
-    border-radius: 15px;
-    margin: 10px;
+.pad{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0px;
+}
+button{
+    width: 35px;
+    height: 30px;
     padding: 5px;
+    margin: 6px;
+}
+.plusBtn{
+
 }
