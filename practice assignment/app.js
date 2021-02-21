@@ -10,3 +10,21 @@
 // alert('Welcome to JS land..')
 // alert('Happy coding')
 
+// Chapter #2
+
+// var userName = 'bilal ahmad'
+// var myName = 'bilal Ahmad'
+
+// var message = 'hello world'
+// alert(message)
+
+// var name = 'bilal Ahmad'
+// var age = 19
+// var category = 'Certified web and mobile app development'
+// alert(name)
+// alert(age)
+// alert(category)
+
+// var showToAler = 'pizza \n' + 'pizz \n' + 'piz \n' + 'pi \n' + 'p'
+// alert(showToAler)
+
