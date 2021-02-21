@@ -52,7 +52,36 @@
 // document.write('My birthYear is ' + birthYear + '<br>')
 // document.write('Data type of my declared variable is ' + typeOfVariable)
 
-var visitorName = 'irfan Joyia'
-var productName = 'Sandwich'
-var quantity = 5
-document.write(visitorName + ' ordered ' + quantity + productName + ' at Alfilah store.')
+// var visitorName = 'irfan Joyia'
+// var productName = 'Sandwich'
+// var quantity = 5
+// document.write(visitorName + ' ordered ' + quantity + productName + ' at Alfilah store.')
+
+// Chapter 4 & 5
+
+// var num1 = 20
+// var num2 = 10
+// var sum = num1 + num2
+// var sub = num1 - num2
+// var mul = num1 * num2
+// var div = num1 / num2
+// var mod = num1 % num2
+// document.write('Sum of ' + num1 + ' and ' + num2 + ' = ' + sum + '<br>')
+// document.write('Sub of ' + num1 + ' and ' + num2 + ' = ' + sub + '<br>')
+// document.write('Mul of ' + num1 + ' and ' + num2 + ' = ' + mul + '<br>')
+// document.write('Div of ' + num1 + ' and ' + num2 + ' = ' + div + '<br>')
+// document.write('Mod of ' + num1 + ' and ' + num2 + ' = ' + mod)
+
+var initialValue;
+document.write('Value after variable declaration is ' + initialValue + '<br>')
+initialValue = 5
+document.write('Initial Value : ' + initialValue + '<br>')
+var increamentValue = ++initialValue
+document.write('Value after increament is : ' + increamentValue + '<br>')
+var valueAfterAddition = 7 + increamentValue;
+document.write('Value after addition is : ' + valueAfterAddition + '<br>')
+var decreamentValue = --valueAfterAddition
+document.write('Value after decreament is : ' + decreamentValue + '<br>')
+var remainder = decreamentValue % 3
+document.write('Remainder is ' + remainder)
+
