@@ -38,3 +38,21 @@
 
 // var showToAlert = '▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬'
 // alert(showToAlert)
+
+// Chapter #3
+
+// var age = 19
+// alert('My age is ' + age + ' years old.')
+
+// var n = 15
+// alert('you have visited ' + n + ' times this webpage.')
+
+// var birthYear = 2001
+// var typeOfVariable = typeof(birthYear)
+// document.write('My birthYear is ' + birthYear + '<br>')
+// document.write('Data type of my declared variable is ' + typeOfVariable)
+
+var visitorName = 'irfan Joyia'
+var productName = 'Sandwich'
+var quantity = 5
+document.write(visitorName + ' ordered ' + quantity + productName + ' at Alfilah store.')
