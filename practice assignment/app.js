@@ -28,3 +28,13 @@
 // var showToAler = 'pizza \n' + 'pizz \n' + 'piz \n' + 'pi \n' + 'p'
 // alert(showToAler)
 
+// var email = 'abc@gmail.com'
+// alert('here is my mail address' + email)
+
+// var book = 'A smarter way to learn javascript'
+// alert('I am trying to learn from ' + book)
+
+// document.write('yeh! i can write HTML content using JS')
+
+// var showToAlert = '▬▬▬▬▬▬▬▬▬ஜ ۩۞۩ ஜ▬▬▬▬▬▬▬▬▬'
+// alert(showToAlert)
