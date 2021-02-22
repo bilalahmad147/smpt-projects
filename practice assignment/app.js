@@ -72,16 +72,34 @@
 // document.write('Div of ' + num1 + ' and ' + num2 + ' = ' + div + '<br>')
 // document.write('Mod of ' + num1 + ' and ' + num2 + ' = ' + mod)
 
-var initialValue;
-document.write('Value after variable declaration is ' + initialValue + '<br>')
-initialValue = 5
-document.write('Initial Value : ' + initialValue + '<br>')
-var increamentValue = ++initialValue
-document.write('Value after increament is : ' + increamentValue + '<br>')
-var valueAfterAddition = 7 + increamentValue;
-document.write('Value after addition is : ' + valueAfterAddition + '<br>')
-var decreamentValue = --valueAfterAddition
-document.write('Value after decreament is : ' + decreamentValue + '<br>')
-var remainder = decreamentValue % 3
-document.write('Remainder is ' + remainder)
+// var initialValue;
+// document.write('Value after variable declaration is ' + initialValue + '<br>')
+// initialValue = 5
+// document.write('Initial Value : ' + initialValue + '<br>')
+// var increamentValue = ++initialValue
+// document.write('Value after increament is : ' + increamentValue + '<br>')
+// var valueAfterAddition = 7 + increamentValue;
+// document.write('Value after addition is : ' + valueAfterAddition + '<br>')
+// var decreamentValue = --valueAfterAddition
+// document.write('Value after decreament is : ' + decreamentValue + '<br>')
+// var remainder = decreamentValue % 3
+// document.write('Remainder is ' + remainder)
+
+// var ticketPrice = 600;
+// var numOfTicket = 5;
+// var totalPrice = ticketPrice * numOfTicket;
+// document.write(totalPrice)
+
+// var numForTable = 4;
+// document.write('Table of number : ' + numForTable + '<br>')
+// for (let index = 1; index <= 10; index++) {
+//     document.write(numForTable + ' * ' + index + ' = ' + numForTable * index + '<br>')
+// }
+
+// var temp = 25
+// var temInFah = (temp * 9 / 5) + 32
+// document.write(temInFah)
+
+// document.write('<h1>MarkSheet</h1>')
+
 
