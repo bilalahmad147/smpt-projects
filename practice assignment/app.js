@@ -102,4 +102,20 @@
 
 // document.write('<h1>MarkSheet</h1>')
 
+// Chapter # 6 to 9
+
+// var num = 10;
+// document.write('<h1>Results:</h1>' + '<br>')
+// document.write('Value of a is : ' + num  + '<br>')
+// document.write('the value of ++a is : ' + ++num  + '<br>')
+// document.write('the value of a++ is now : ' + (num + 1)  + '<br>')
+
+
+// var num = prompt('Enter num for table output: ', 5)
+// num = parseInt(num)
+// for (let index = 1; index <= 10; index++) {
+//     document.write(num + ' * ' + index + ' = ' + num * index + '<br>')
+// }
+
+
 
