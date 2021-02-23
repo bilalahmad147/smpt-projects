@@ -118,4 +118,44 @@
 // }
 
 
+// Chapter # 9 to 11
 
+// var nameOfCity = prompt('Enter city name : ')
+// if (nameOfCity === 'karachi') {
+//     alert('welcome to city of lights')
+// }
+
+// var gender = prompt("Enter gender please : ", 'male')
+// if (gender === 'male') {
+//     alert('Good Morning Sir ')
+// } else {
+//     alert("Good Morning Mam ")
+// }
+
+// var colorOfLight = prompt('Enter color of light : ')
+// if (colorOfLight === 'red') {
+//     document.write('Must Stop')
+// } else if (colorOfLight === 'yellow') {
+//     document.write('Ready to move.')
+// } else if (colorOfLight === 'green') {
+//     document.write('Move now')
+// } else {
+//     document.write('Incorrect color input.')
+// }
+
+// var remainingFuel = prompt('Enter remaining fuel in liters : ')
+// remainingFuel = Number(remainingFuel)
+// if (remainingFuel < 0.25){
+//     document.write('Please refill fuel tank.')
+// } else{
+//     document.write('Fuel limit is okay.')
+// }
+
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// }
+
+if ("car" < "cat") {
+    alert("car is smaller than cat");
+}
