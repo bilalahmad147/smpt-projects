@@ -160,13 +160,11 @@
 //     alert("car is smaller than cat");
 // }
 
+var countingNum = 0;
 var name = prompt('Enter name here : ');
 for (let i = 0; i < name.length; i++) {
-    if (name.slice(i, i + 5) === 'bilal') {
-        console.log('name found')
-        break;
-    } else {
-        console.log('name not found');
+    if (name.slice(i, i + 2) === 'dd') {
+        countingNum = ++countingNum
     }
-
 }
+alert(`alphabet found ${countingNum} times`)
