@@ -160,3 +160,13 @@
 //     alert("car is smaller than cat");
 // }
 
+var name = prompt('Enter name here : ');
+for (let i = 0; i < name.length; i++) {
+    if (name.slice(i, i + 5) === 'bilal') {
+        console.log('name found')
+        break;
+    } else {
+        console.log('name not found');
+    }
+
+}
