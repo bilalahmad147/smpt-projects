@@ -156,6 +156,7 @@
 //     alert("given condition for variable a is true");
 // }
 
-if ("car" < "cat") {
-    alert("car is smaller than cat");
-}
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
