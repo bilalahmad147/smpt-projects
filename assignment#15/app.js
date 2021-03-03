@@ -133,3 +133,24 @@
 //         document.write(c)
 //     }
 // }
+
+
+var a = prompt('Enter word for changing case:')
+var num = 0;
+var alpha = 0;
+var spec = 0;
+for (i = 0; i < a.length; i++) {
+    if ((/[A-Z]/).test(a[i]) || (/[a-z]/).test(a[i])) {
+        ++alpha;
+    } else if ((/[0-9]/).test(a[i])) {
+        ++num;
+    } else {
+        ++spec;
+    }
+}
+document.write('num of alpha : ', alpha)
+document.write('num of num : ', num)
+document.write('num of spec : ', spec)
+
+
+
