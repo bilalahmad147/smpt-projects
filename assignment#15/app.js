@@ -135,22 +135,46 @@
 // }
 
 
-var a = prompt('Enter word for changing case:')
-var num = 0;
-var alpha = 0;
-var spec = 0;
-for (i = 0; i < a.length; i++) {
-    if ((/[A-Z]/).test(a[i]) || (/[a-z]/).test(a[i])) {
-        ++alpha;
-    } else if ((/[0-9]/).test(a[i])) {
-        ++num;
-    } else {
-        ++spec;
+// var a = prompt('Enter word for changing case:')
+// var num = 0;
+// var alpha = 0;
+// var spec = 0;
+// for (i = 0; i < a.length; i++) {
+//     if ((/[A-Z]/).test(a[i]) || (/[a-z]/).test(a[i])) {
+//         ++alpha;
+//     } else if ((/[0-9]/).test(a[i])) {
+//         ++num;
+//     } else {
+//         ++spec;
+//     }
+// }
+// document.write('num of alpha : ', alpha)
+// document.write('num of num : ', num)
+// document.write('num of spec : ', spec)
+
+// var a = prompt('Enter word :')
+// var num = 1;
+// for (i = 0; i < a.length; i++) {
+//     if (a[i] === ' ') {
+//         ++num;
+//     }
+// }
+// document.write('num of words : ', num)
+
+// var a = prompt('Enter String: ')
+// var newStr = ''
+// for (let i = a.length; i >= 0; i--) {
+//     newStr += a[i]
+// }
+
+// document.write(newStr)
+
+function oddNum() {
+    for (let i = 0; i < 100; i++) {
+        if (i % 2 == 1) {
+            document.write(i + '<br>')
+        }
     }
 }
-document.write('num of alpha : ', alpha)
-document.write('num of num : ', num)
-document.write('num of spec : ', spec)
 
-
-
+oddNum()
