@@ -163,7 +163,7 @@
 
 // var a = prompt('Enter String: ')
 // var newStr = ''
-// for (let i = a.length; i >= 0; i--) {
+// for (let i = a.length - 1; i >= 0; i--) {
 //     newStr += a[i]
 // }
 
@@ -179,3 +179,14 @@
 
 // oddNum()
 
+// var a = prompt("Enter a word : ")
+// var b = a.split('').reverse()
+// console.log(b)
+
+// var a = prompt('Enter string:')
+// var b = prompt('Enter char for search: ')
+// for (let i = 0; i < a.length; i++) {
+//     if (b === a[i]) {
+//         console.log('Char at: ', a[i].charAt());
+//     }
+// }
