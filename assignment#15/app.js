@@ -190,3 +190,14 @@
 //         console.log('Char at: ', a[i].charAt());
 //     }
 // }
+
+// var a = [-1, -2, 3, 4, 5, 6]
+// for (let i = 0; i < a.length; i++) {
+//     if (a[i] < 0) {
+//         console.log(a[i]);
+//     }
+// }
+
+// console.log(3>2>1);
+// console.log(1<2<3);
+
