@@ -221,4 +221,45 @@
 // var amount = prompt('Enter amount: ')
 // if ((amount % 500) === 0) {
 //     document.write(`Number of notes = ${amount / 500}`)
+
+// function sayHello() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i, 'hello world');
+//     }
 // }
+
+// sayHello()
+
+// const person = {
+//     name: 'luqman',
+//     walk() {
+//         console.log(this);
+//     }
+// }
+
+// const walk = person.walk.bind(person);
+// walk()
+
+// Arrow functions
+
+// const square = (num) => {
+//     return num * num
+// }
+
+// console.log(square(8));
+
+// const jobs = [
+//     { id: 0, isActive: true },
+//     { id: 1, isActive: true },
+//     { id: 2, isActive: false }
+// ]
+
+// const jobsToApply = jobs.filter(job => job.isActive)
+// console.log(jobsToApply)
+
+// const colors = ['red', 'green', 'blue', 'yellow']
+// const printColor = colors.map((col) => {
+//     return '<li>' + col + '</li>'
+// })
+
+// document.write(printColor)
