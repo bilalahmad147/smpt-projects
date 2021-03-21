@@ -201,3 +201,24 @@
 // console.log(3>2>1);
 // console.log(1<2<3);
 
+// var a = prompt('Enter alphabet: ')
+// if ((/[A-Z]/).test(a)) {
+//     document.write('Alphabet is uppperCase.')
+// } else if ((/[a-z]/).test(a)) {
+//     document.write('Alphabet is lowerCase.')
+// } else {
+//     document.write('Not Alphabet.')
+// }
+
+// var monthList = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+// var b = prompt('Enter month number: ')
+// if (b <= 11) {
+//     document.write(monthList[b])
+// } else {
+//     document.write('incorrect command.')
+// }
+
+// var amount = prompt('Enter amount: ')
+// if ((amount % 500) === 0) {
+//     document.write(`Number of notes = ${amount / 500}`)
+// }
