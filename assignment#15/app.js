@@ -263,3 +263,21 @@
 // })
 
 // document.write(printColor)
+
+// const obj = {
+//     name: 'bilal',
+//     age: 21,
+//     color: 'brown'
+// }
+
+// const { name: nm } = obj
+// console.log(nm);
+
+// Spread operators
+
+const first = [1, 2, 3]
+const second = [4, 5, 6]
+
+// const combined = first.concat(second)
+const combined = [...first, 'a', 'b', 'c', ...second]
+console.log(combined);
