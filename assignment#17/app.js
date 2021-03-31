@@ -17,9 +17,9 @@
 // console.log(fullName);
 
 // var value = prompt("Enter input Value: ");
-// console.log(typeof(value));
+// console.log(typeof value);
 // var value = +prompt("Enter input Value: ");
-// console.log(typeof(value));
+// console.log(typeof value);
 
 // var num = 10;
 // var name = "bilal";
@@ -43,4 +43,19 @@
 //   console.log(i + name);
 // }
 
+// function sumNumbers(num1, num2 = 4) {
+//   var num = num1 + num2;
+//   console.log(num);
+// }
 
+// sumNumbers(10);
+
+// ES6 Start
+
+// var company = { name: "Panacloud", employee: 200 };
+// var txt = "";
+// for (i in company) {
+//   console.log(company[i]);
+//   txt += company[i] + " ";
+// }
+// console.log(txt);
