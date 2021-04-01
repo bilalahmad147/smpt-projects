@@ -59,3 +59,47 @@
 //   txt += company[i] + " ";
 // }
 // console.log(txt);
+
+// const sumNum = (a, b) => {
+//   let c = a + b;
+//   return c;
+// };
+
+// const mulNum = (a, b) => {
+//   let c = a * b;
+//   return c;
+// };
+
+// const subNum = (a, b) => {
+//   let c = a - b;
+//   return c;
+// };
+
+// const divNum = (a, b) => {
+//   let c = a / b;
+//   return c;
+// };
+
+// const perNum = (a, b) => {
+//   let c = a % b;
+//   return c;
+// };
+
+// console.log(sumNum(5, 10));
+// console.log(mulNum(10, 2));
+// console.log(subNum(20, 5));
+// console.log(divNum(20, 5));
+// console.log(perNum(10, 3));
+
+// let listOfNames = ["ali", "chan", "shah", "ans"];
+// const showList = () => {
+//   listOfNames.map((name, ind) => console.log(ind, name));
+// };
+
+// showList();
+
+// let first = [1,2,3]
+// let second = [4,5,6]
+
+// let third = [...first,...second]
+// console.log(third);
