@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>hello world</h1>
+    <div class="mainDiv">
+      <h1>hello world</h1>
+      <input
+        type="text"
+        name="zipCode"
+        id="zipCode"
+        placeholder="Zip Code.."
+        onblur="fillCityName('zipCode')"
+      />
+      <br />
+      <input
+        type="text"
+        name="cityName"
+        id="cityName"
+        placeholder="City Name.."
+      />
+      <!-- <button onclick="fillCityName('zipCode')">Get Value</button> -->
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
