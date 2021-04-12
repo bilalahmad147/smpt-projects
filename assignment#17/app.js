@@ -108,27 +108,40 @@
 //     alert(msg)
 // }
 
-function fillCityName(fieldId) {
-  let cityName;
-  let zipCode = document.getElementById(fieldId).value;
-  console.log(zipCode);
-  switch (zipCode) {
-    case "110":
-      cityName = "Sahiwal";
-      break;
-    case "111":
-      cityName = "Lahore";
-      break;
-    case "112":
-      cityName = "Karachi";
-      break;
-    case "113":
-      cityName = "Multan";
-      break;
-    default:
-      cityName = "Not Found";
-      alert("Incorrect Zip Code");
-      break;
-  }
-  document.getElementById("cityName").value = cityName;
-}
+// function fillCityName(fieldId) {
+//   let cityName;
+//   let zipCode = document.getElementById(fieldId).value;
+//   console.log(zipCode);
+//   switch (zipCode) {
+//     case "110":
+//       cityName = "Sahiwal";
+//       break;
+//     case "111":
+//       cityName = "Lahore";
+//       break;
+//     case "112":
+//       cityName = "Karachi";
+//       break;
+//     case "113":
+//       cityName = "Multan";
+//       break;
+//     default:
+//       cityName = "Not Found";
+//       alert("Incorrect Zip Code");
+//       break;
+//   }
+//   document.getElementById("cityName").value = cityName;
+// }
+
+const success = () => {
+  console.log("Success");
+};
+const failure = () => {
+  console.log("Failure");
+};
+
+setTimeout(() => {
+  console.log("hello world");
+}, 2000);
+
+failure()
