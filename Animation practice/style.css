@@ -1,16 +1,18 @@
-.mainBox {
-    animation-duration: 3s;
-    animation-name: slidein;
+.mainBox1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: red;
+}
+.mainBox2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: yellow;
   }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 110%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
+  .mainBox3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: blue;
   }
