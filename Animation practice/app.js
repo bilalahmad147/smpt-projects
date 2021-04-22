@@ -19,7 +19,7 @@ elem1.animate(
 elem2.animate(
     [
       { transform: "translate(0,0)" },
-      { transform: "translate(500px,500px)" },
+      { transform: "translate(500px,400px)" },
       { transform: "translate(800px,0)" },
       { transform: "translate(900px,400px)" },
       { transform: "translate(1200px,0)" },
@@ -34,9 +34,9 @@ elem2.animate(
   elem3.animate(
     [
       { transform: "translate(0,0)" },
-      { transform: "translate(200px,300px)" },
+      { transform: "translate(200px,400px)" },
       { transform: "translate(500px,0)" },
-      { transform: "translate(700px,500px)" },
+      { transform: "translate(700px,400px)" },
       { transform: "translate(1200px,0)" },
     ],
     {
