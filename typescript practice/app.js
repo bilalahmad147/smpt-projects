@@ -6,8 +6,24 @@ console.log("start working...");
 // const number2 = 2.5;
 // const result = add(number1, number2);
 // console.log(result);
-var obj = {
-    name: "bilal",
-    age: 19
+// let obj = {
+//   name: "bilal",
+//   age: 19,
+// };
+// console.log(obj.age);
+var combine = function (input1, input2) {
+    var result;
+    if (typeof input1 === "number" && typeof input2 === "number") {
+        result = input1 + input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
 };
-console.log(obj.age);
+var finalResult1 = combine(5, 2);
+console.log(finalResult1);
+var finalResult2 = combine("bilal", ' ahmad');
+console.log(finalResult2);
+var finalResult3 = combine("bilal", 5);
+console.log(finalResult3);
